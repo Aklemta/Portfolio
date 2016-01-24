@@ -9,7 +9,7 @@ module.exports = function (grunt) {
           options: {
             livereload: true
           },
-          files: 'index.html'
+          files: '**/*.*'
         }
       },
       connect: {
